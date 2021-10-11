@@ -11,7 +11,7 @@ const caesarModule = (function () {
     let result = []
     let lowerCase = input.toLowerCase()
 
-    //exit early if shit meets any of these conditions
+    //exit early if shift meets any of these conditions
     if (shift === 0 || shift > 25 || shift < -25) return false
     if (!encode) shift *= -1
     
